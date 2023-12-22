@@ -12,11 +12,7 @@ err := database.QueryRow("select * from users where user_id=?", id).Scan(&ReadUs
 
 我试图打破它
 
-```go
-err := database.QueryRow("select * from users where user_id=?", id) \
 
- .Scan(&ReadUser.ID, &ReadUser.Name, &ReadUser.First, &ReadUser.Last, &ReadUser.Email)
-```
 
 但我得到
 
