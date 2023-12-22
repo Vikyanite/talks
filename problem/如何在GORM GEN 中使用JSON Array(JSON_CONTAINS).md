@@ -8,11 +8,6 @@
 
 但是在[GORM的文档](https://gorm.io/zh_CN/docs/data_types.html#自定义数据类型集合)中却存在对于JSON的SET与Array的描述，说这些自定义数据类型定义在https://github.com/go-gorm/datatypes下。
 
-![image-20230216111141980](https://raw.githubusercontent.com/Vikyanite/talks/main/images/2023-02-16-cbfa7b-image-20230216111141980.png)
-
-我们知道GORM GEN其实就是对GORM封了一层而已，也就是说，既然GORM能有JSON Array那么GORM GEN必然也是能有的。
-
-于是我们先学GORM GEN给出的JSON Query的例子。
 
 -----
 
